@@ -41,3 +41,4 @@ root                    (project root folder)
 ## Authors
 ---
 * # TODO: Add names and emails here
+* Carl Bialorucki <carl.bialorucki@byui.edu>
