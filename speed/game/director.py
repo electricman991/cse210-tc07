@@ -72,7 +72,7 @@ class Director:
             self (Director): An instance of Director.
         """
 
-        self._handle_enter
+        self._handle_enter()
         
 
     
@@ -100,6 +100,7 @@ class Director:
             self (director): An instance of actor.
          """
         word = self._buffer.get_word()
+        
         if '*' in word:
             new_word = word[:-1]
             points = self._words.word_check(new_word)
