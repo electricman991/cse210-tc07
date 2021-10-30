@@ -103,6 +103,7 @@ class Director:
         
         if '*' in word:
             new_word = word[:-1]
+            #points = 5
             points = self._words.word_check(new_word)
             self._score.add_points(points)
             self._buffer.reset()
